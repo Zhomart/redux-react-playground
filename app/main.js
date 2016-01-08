@@ -1,3 +1,3 @@
-require("./../styles/main.scss")
+"use strict";
 
-document.write(require("./content.jsx"));
+require("./../styles/main.css")
