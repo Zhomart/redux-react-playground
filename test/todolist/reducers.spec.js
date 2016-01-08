@@ -3,12 +3,12 @@
 const expect = require('expect');
 const deepFreeze = require('deep-freeze');
 
-const todos = require('./../../app/todolist/app.js').todos;
+const todos = require('./../../app/todolist/reducers.js').todos;
 
 
-describe('Todo', () => {
+describe('Todolist', () => {
 
-  describe('reducer todos', () => {
+  describe('reducers.todos', () => {
 
     it('returns current state for unknown action', () => {
       const state = 'current-state'
